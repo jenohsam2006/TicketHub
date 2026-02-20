@@ -125,3 +125,8 @@ Testing:-
 •	Invalid event selection
 •	Multiple seat booking
 •	Chatbot conversation flow
+
+Source Code Repository:-
+The complete source code of the TicketHub project is publicly available on GitHub:
+https://jenohsam2006.github.io/
+
