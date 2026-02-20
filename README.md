@@ -14,13 +14,7 @@ Features:-
 
 System Architecture:-
 TicketHub follows a simple client-server architecture:
-User (Browser)
-     ↓
-Frontend (HTML, CSS, JS)
-     ↓
-Backend (Python / Node / etc.)
-     ↓
-Excel Database (.xlsx)
+User (Browser) -> Frontend (HTML, CSS, JS) -> Backend (Python / Node / etc.) -> Excel Database (.xlsx)
 
 Components:-
 1. Frontend
@@ -74,7 +68,7 @@ TicketHub/
 ├── data/
 │   └── events.xlsx
 │
-├── app.py (or server.js)
+├── server.js
 ├── requirements.txt
 └── README.md
 
@@ -100,17 +94,7 @@ Chatbot Workflow:-
 6.	Updates Excel database
 
 Booking Process Flow:-
-Select Event
-     ↓
-Choose Seats
-     ↓
-Check Availability
-     ↓
-Confirm Booking
-     ↓
-Update Database
-     ↓
-Show Confirmation
+Select Event -> Choose Seats -> Check Availability -> Confirm Booking -> Update Database -> Show Confirmation
 
 Validation & Error Handling:-
 •	Prevent booking already reserved seats
